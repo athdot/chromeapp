@@ -1,0 +1,44 @@
+{
+  "manifest_version": 2,
+  "name": "Athbrowser",
+  "description": "Athbrowser browsing",
+  "minimum_chrome_version": "24.0.1307.0",
+  "version": "3.0",
+  "default_locale": "en",
+  "icons": {
+    "16": "icon_16.png",
+    "128": "icon_128.png"
+  },
+  "app": {
+    "background": {
+      "scripts": ["config.js", "main.js"]
+    }
+  },
+  "permissions": [
+      "fullscreen",
+    "webview",
+    "downloads",
+    "background",
+    "bookmarks",
+    "browsingData",
+    "clipboardRead",
+    "clipboardWrite",
+    "cookies",
+    "debugger",
+    "desktopCapture",
+    "fileBrowserHandler",
+    "fileBrowserProvider",
+    "location",
+    "network.config",
+    "notifications",
+    "power",
+    "printerProvider",
+    "proxy",
+    "storage",
+    "system.storage",
+    "tabs",
+    "unlimitedStorage",
+    "vpnProvider",
+    "wallpaper"
+  ]
+}
